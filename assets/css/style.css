@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "krabbyPatty";
+    src: url("allfonts/krabby patty.ttf");
+    font-style: normal;
+  }
+  
+
+body {
+	position: relative;
+	background-image: url(../images/flowerback.jpg)
+}
+
+body {
+	/* font-family: "Courier New", Courier, monospace; */
+    color: yellow;
+    font-family: krabbyPatty
+}
+
+h1 {
+    text-align:center;
+    font-size: 100px;
+    color: yellow;
+}
+
+h3 {
+    text-align:center;
+    font-size: 50px;
+    color: yellow;
+}
+
+#instruction, #alerts {
+	text-align: center;
+	font-size: 36px;
+}
+
+#main-content {
+	width: 960px;
+	margin: 0px auto 0px auto;
+}
+
+.panel {
+	background-color: #00b7fff1;
+	padding: 20px;
+	margin: 10px;
+}
+
+#word-display {
+	text-align: center;
+	font-size: 32px;
+	padding: 10px;
+    padding-bottom: 20px;
+}
+
+.guessbox {
+	text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
